@@ -24,6 +24,10 @@ export function AppHeader() {
           <Link as={ReactRouterLink} to="/">
             RECEPTY
           </Link>
+          <Link as={ReactRouterLink} to="/add-recipe">
+            Přidat recept
+          </Link>
+          <></>
         </HStack>
       </Box>
     </Box>
